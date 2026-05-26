@@ -1,2 +1,2 @@
-# goit-markup-hw-05
-HW #5, Module #5, Th: 'Forms'.
+# goit-markup-hw-06
+HW #6, Module #6, Th: 'Resposive design'.
