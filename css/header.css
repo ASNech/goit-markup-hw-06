@@ -121,6 +121,7 @@ a.nav-active-link {
   }
   .addresses-list {
     flex-direction: row;
+    column-gap: 40px;
   }
   .addresses-list a {
     padding-top: 24px;

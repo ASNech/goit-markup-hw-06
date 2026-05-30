@@ -49,6 +49,7 @@
 
 .footer-socials-list {
   display: flex;
+  justify-content: center;
   gap: 16px;
 }
 
@@ -158,6 +159,10 @@
   }
   .footer-subscribe-form {
     flex-direction: row;
+		column-gap: 24px;
+  }
+  .footer-subscribe-input {
+    max-width: 264px;
   }
 }
 
