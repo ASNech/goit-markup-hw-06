@@ -1,18 +1,17 @@
-.features-title {
-  color: #2e2f42;
-}
-
 .features-list {
   display: flex;
-  column-gap: 24px;
+  flex-direction: column;
+  row-gap: 72px;
 }
 
-.features-card {
-  width: 264px;
+.feature-card-title {
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
 }
 
-.feature-icon-wraper {
-  display: flex;
+.feature-icon-wrapper {
+  display: none;
   justify-content: center;
   align-items: center;
   background-color: #f4f4fd;
@@ -22,7 +21,34 @@
   height: 112px;
   margin-bottom: 8px;
 }
+.feature-card-description {
+  font-weight: 500;
+}
 
-.feature-card-title {
-  margin-bottom: 8px;
+@media screen and (min-width: 320px) {
+  .features-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+  .feature-card {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .features-list {
+    flex-wrap: nowrap;
+  }
+  .feature-icon-wrapper {
+    display: flex;
+  }
+  .feature-card-description {
+    font-weight: 400;
+  }
+  .feature-card-title {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+  }
 }
