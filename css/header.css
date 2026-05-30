@@ -74,7 +74,6 @@ a.nav-active-link {
 
 .addresses-list {
   display: flex;
-  column-gap: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -103,6 +102,7 @@ a.nav-active-link {
   }
   .addresses-list {
     flex-direction: column;
+    row-gap: 12px;
   }
   .addresses-list a {
     font-size: 12px;
