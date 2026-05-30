@@ -58,7 +58,7 @@
   transform: translateY(0);
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 768px) {
   .projects-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -73,7 +73,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1158px) {
   .projects-list {
     row-gap: 48px;
   }
