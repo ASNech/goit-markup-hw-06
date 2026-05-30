@@ -43,6 +43,9 @@
   .feature-icon-wrapper {
     display: flex;
   }
+  .feature-card {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
   .feature-card-description {
     font-weight: 400;
   }
